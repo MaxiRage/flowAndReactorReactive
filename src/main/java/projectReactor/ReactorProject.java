@@ -4,10 +4,6 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.FluxSink;
 import reactor.core.scheduler.Schedulers;
 
-/**
- * Notice. OverflowStrategy.DROP - If subscriber can't keep up with values, then drop the values.
- * *
- */
 public class ReactorProject {
     public static void main(String[] args) throws InterruptedException {
 
